@@ -4,12 +4,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name='espy',
+    name='espy-lang',
     version='0.1.0',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'espy=espy.__main__:main',
+            'espy-lang=espy.__main__:main',
         ],
     },
     author='Tu Nombre',
@@ -17,7 +17,7 @@ setup(
     description='Transpilador de Python en español: ejecuta código Python usando palabras clave y sintaxis en español.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/TU_USUARIO/espy',
+    url='https://github.com/TU_USUARIO/espy-lang',
     license='MIT',
     python_requires='>=3.6',
     classifiers=[

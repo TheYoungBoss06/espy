@@ -1,8 +1,8 @@
-# espy
+# espy-lang
 
 > **¡Programa en Python usando sintaxis y palabras clave en español!**
 
-espy es un transpilador que te permite escribir código Python completamente en español y ejecutarlo en cualquier sistema, facilitando el aprendizaje, la enseñanza y la programación para hispanohablantes.
+espy-lang es un transpilador que te permite escribir código Python completamente en español y ejecutarlo en cualquier sistema, facilitando el aprendizaje, la enseñanza y la programación para hispanohablantes.
 
 ---
 
@@ -30,7 +30,7 @@ imprimir(c.sumar(2, 3))
 2. Ejecuta tu archivo:
 
 ```sh
-espy run archivo.espy
+espy-lang run archivo.espy
 ```
 
 ---
@@ -112,7 +112,7 @@ imprimir(p)
 
 ## 🤝 Contribuir
 
-¿Tienes ideas, sugerencias o quieres ayudar a mejorar espy?
+¿Tienes ideas, sugerencias o quieres ayudar a mejorar espy-lang?
 
 - Haz un fork y envía un pull request
 - Abre un issue para reportar bugs o proponer mejoras
@@ -124,7 +124,7 @@ imprimir(p)
 
 - Autor: Tu Nombre
 - Email: tu.email@ejemplo.com
-- GitHub: [https://github.com/TU_USUARIO/espy](https://github.com/TU_USUARIO/espy)
+- GitHub: [https://github.com/TU_USUARIO/espy-lang](https://github.com/TU_USUARIO/espy-lang)
 
 ---
 
