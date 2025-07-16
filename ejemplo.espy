@@ -1,0 +1,9 @@
+# ¡Código en español!
+funcion saludar(nombre):
+    imprimir(f"Hola, {nombre}")
+
+variable x = 10
+si x > 5:
+    saludar("Mundo")
+sino:
+    imprimir("Adiós")

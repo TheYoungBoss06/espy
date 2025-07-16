@@ -1,0 +1,33 @@
+# Ejemplo avanzado en español
+clase Persona:
+    funcion __init__(yo, nombre, edad):
+        yo.nombre = nombre
+        yo.edad = edad
+
+    funcion saludar(yo):
+        imprimir(f"Hola, soy {yo.nombre} y tengo {yo.edad} años.")
+
+clase Estudiante(Persona):
+    funcion __init__(yo, nombre, edad, carrera):
+        super().__init__(nombre, edad)
+        yo.carrera = carrera
+
+    funcion saludar(yo):
+        super().saludar()
+        imprimir(f"Estudio {yo.carrera}.")
+
+personas = [
+    Persona("Ana", 30),
+    Estudiante("Luis", 20, "Ingeniería"),
+    Persona("Marta", 25)
+]
+
+para persona en personas:
+    intentar:
+        persona.saludar()
+        si persona.edad < 0:
+            lanzar ValueError("Edad inválida")
+    excepto Exception como error:
+        imprimir(f"Error: {error}")
+    finalmente:
+        imprimir("---") 
