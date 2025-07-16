@@ -8,7 +8,23 @@ espy-lang es un transpilador que te permite escribir código Python completament
 
 ## 🚀 Instalación
 
+### Desde PyPI (recomendado)
+
 ```sh
+pip install espy-lang
+```
+
+### Desde GitHub (última versión)
+
+```sh
+pip install git+https://github.com/TheYoungBoss06/espy-lang.git
+```
+
+### Desde el código fuente (desarrolladores)
+
+```sh
+git clone https://github.com/TheYoungBoss06/espy-lang.git
+cd espy-lang
 pip install -e .
 ```
 
@@ -124,7 +140,7 @@ imprimir(p)
 
 - Autor: Tu Nombre
 - Email: tu.email@ejemplo.com
-- GitHub: [https://github.com/TU_USUARIO/espy-lang](https://github.com/TU_USUARIO/espy-lang)
+- GitHub: [https://github.com/TheYoungBoss06/espy-lang](https://github.com/TheYoungBoss06/espy-lang)
 
 ---
 
